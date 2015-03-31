@@ -1,0 +1,3 @@
+module Kumquat
+  VERSION = "0.0.2"
+end
