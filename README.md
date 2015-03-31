@@ -1,6 +1,6 @@
 # Kumquat
 
-Kumquat is a reporting tool for sending RMarkdown files over email.
+Kumquat is a reporting tool for rendering RMarkdown files inside Rails.
 
 
 For example, call RMarkdown as partials:
