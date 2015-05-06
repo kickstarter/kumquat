@@ -61,6 +61,7 @@ module Kumquat
 
         r_commands = [
           "setwd('#{tmp_dir}');",
+          "options(java.parameters = '-Xmx4g');",
           "#{r_libraries}",
           redshift_connection(tmp_dir),
           "knit2html('#{@file}', options=#{knitr_options});"
