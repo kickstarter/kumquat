@@ -1,6 +1,6 @@
 module Kumquat
 
-  mattr_accessor :redshift_host, :redshift_database, :redshift_user, :redshift_port, :redshift_password, :logger
+  mattr_accessor :redshift_host, :redshift_database, :redshift_user, :redshift_port, :redshift_password
 
   def self.redshift_config=(config)
     @@redshift_host       = config['host']
@@ -10,13 +10,13 @@ module Kumquat
     @@redshift_password   = config['password']
   end
 
+  def self.logger
+    @@logger ||= Logger.new(Rails.root.join("log", "kumquat.log"))
+  end
+
   class Engine < ::Rails::Engine
     isolate_namespace Kumquat
     REPORTS_PATH        = "app/reports"
-
-    initializer :kumquat_logger do
-      Kumquat.logger = Logger.new(Rails.root.join('log', "kumquat.log"))
-    end
 
   end
 
@@ -27,7 +27,6 @@ module Kumquat
 
     def initialize(file)
       @file = file
-      Kumquat.logger = Logger.new(Rails.root.join('log', "kumquat.log"))
       Kumquat.logger.debug "[Kumquat] file: #{@file}"
     end
 
