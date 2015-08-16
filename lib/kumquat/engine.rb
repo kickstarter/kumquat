@@ -9,7 +9,7 @@ module Kumquat
     end
 
     initializer :rmd_template_handler do
-      ActionView::Template.register_template_handler(:Rmd, RMarkdownTemplateHandler.new)
+      ActionView::Template.register_template_handler(:Rmd, RmdTemplateHandler.new)
     end
 
   end
