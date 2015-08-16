@@ -1,0 +1,26 @@
+A Test Report for Kumquat
+========================================================
+
+This is some code for Knitr, including [a link](https://www.kickstarter.com).
+
+A list:
+
+* One
+* Another thing
+* Last thing!
+
+### More stuff.
+
+Lorem Ipsum.
+
+```{r, comment = NA, fig.width=10, fig.height=8, echo=FALSE, message=FALSE}
+write.table(
+  c(
+    simple_math_true = 1 + 1 == 2,
+    simple_math_false = 1 + 1 == 3
+  ),
+  sep = ": ",
+  quote = F,
+  col.names = F
+)
+```

@@ -2,13 +2,11 @@
 
 Kumquat is a reporting tool for rendering RMarkdown files inside Rails.
 
-
 For example, call RMarkdown as partials:
 
-`render 'live_projects'`
+`render '_a_knitr_report'`
 
-Which calls _live_project_graphs.Rmd:
-
+Which calls `_a_knitr_report.Rmd`:
 
 ```r
 A Test Report for Kumquat
@@ -31,12 +29,30 @@ library(ggplot2)
 qplot(data = data.frame( x = runif(100), y = runif(100) ), x = x, y = y)
 ```
 
-The great part about this is that it can be integrated anywhere inside Rails, but in particular emails.
+Kumquat can be integrated anywhere inside Rails, but in particular emails.
 
-_TODO_
-* Tests
-* Make Redshift optional
-* Documentation:
-    * Mail Interceptor
-    * Redshift
-    * Chef Recipe
+# How it Works
+
+
+# Setup & Development
+
+## Chef Recipe
+* [Chef recipe](https://github.com/kickstarter/kumquat/wiki/Suggested-Chef-Recipe)
+
+## R Dependencies
+* knitr
+* RPostgres
+
+## Sending emails from a local development environment
+
+* `X-KUMQUAT`
+
+* To enable mailer errors in your development environment comment out:
+  * `config.action_mailer.raise_delivery_errors = false`
+  * `config.action_mailer.delivery_method = :test`
+* In terminal, run the command `sudo postfix start`
+
+## Logging
+
+* You can view kumquat and email logs for debugging:
+  - `tail -f log/kumquat.log`
