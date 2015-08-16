@@ -1,1012 +1,0 @@
-# Logfile created on 2015-08-16 11:48:42 -0400 by logger.rb/44203
-D, [2015-08-16T13:27:57.440721 #18451] DEBUG -- : [Kumquat] file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"# Projects"
-D, [2015-08-16T13:27:57.441797 #18451] DEBUG -- : [Kumquat] knitr Rscript: Rscript -e "setwd('/var/folders/sy/gsrl8ysx5jvdmjc61b__qyhw0000gn/T/kumquat_20150816-18451-tzv5lu'); library(knitr); library(DBI); library(RPostgres); source('redshift_credentials.r'); knit2html('/Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"# Projects"', options=c('use_xhtml', 'smartypants', 'mathjax', 'highlight_code', 'base64_images'));" 2>&1
-D, [2015-08-16T13:27:58.032127 #18451] DEBUG -- : [Kumquat] knitr output: Loading required package: methods
-Error in unlist(list(dbname = dbname, user = user, password = password,  : 
-  argument is missing, with no default
-Calls: source ... eval -> eval -> dbConnect -> dbConnect -> .local -> unlist
-Execution halted
-
-D, [2015-08-16T13:28:35.570084 #18823] DEBUG -- : [Kumquat] file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"# Projects"
-D, [2015-08-16T13:28:35.570512 #18823] DEBUG -- : [Kumquat] knitr Rscript: Rscript -e "setwd('/var/folders/sy/gsrl8ysx5jvdmjc61b__qyhw0000gn/T/kumquat_20150816-18823-3tpv3p'); library(knitr); library(DBI); library(RPostgres); source('redshift_credentials.r'); knit2html('/Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"# Projects"', options=c('use_xhtml', 'smartypants', 'mathjax', 'highlight_code', 'base64_images'));" 2>&1
-D, [2015-08-16T13:28:36.148229 #18823] DEBUG -- : [Kumquat] knitr output: Loading required package: methods
-Error in unlist(list(dbname = dbname, user = user, password = password,  : 
-  argument is missing, with no default
-Calls: source ... eval -> eval -> dbConnect -> dbConnect -> .local -> unlist
-Execution halted
-
-D, [2015-08-16T13:28:56.338133 #18953] DEBUG -- : [Kumquat] file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"# Projects"
-D, [2015-08-16T13:28:56.338396 #18953] DEBUG -- : [Kumquat] knitr Rscript: Rscript -e "setwd('/var/folders/sy/gsrl8ysx5jvdmjc61b__qyhw0000gn/T/kumquat_20150816-18953-1q4dq8v'); library(knitr); library(DBI); library(RPostgres); knit2html('/Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"# Projects"', options=c('use_xhtml', 'smartypants', 'mathjax', 'highlight_code', 'base64_images'));" 2>&1
-D, [2015-08-16T13:28:56.894579 #18953] DEBUG -- : [Kumquat] knitr output: Loading required package: methods
-Error: unexpected end of input
-Execution halted
-
-D, [2015-08-16T13:29:38.481944 #19083] DEBUG -- : [Kumquat] file: # Projects
-D, [2015-08-16T13:29:38.482181 #19083] DEBUG -- : [Kumquat] knitr Rscript: Rscript -e "setwd('/var/folders/sy/gsrl8ysx5jvdmjc61b__qyhw0000gn/T/kumquat_20150816-19083-f86uzg'); library(knitr); library(DBI); library(RPostgres); knit2html('# Projects', options=c('use_xhtml', 'smartypants', 'mathjax', 'highlight_code', 'base64_images'));" 2>&1
-D, [2015-08-16T13:29:39.029873 #19083] DEBUG -- : [Kumquat] knitr output: Loading required package: methods
-Error in readLines(if (is.character(input2)) { : 
-  cannot open the connection
-Calls: knit2html -> knit -> readLines
-In addition: Warning message:
-In readLines(if (is.character(input2)) { :
-  cannot open file '# Projects': No such file or directory
-Execution halted
-
-D, [2015-08-16T13:30:10.505902 #19244] DEBUG -- : [Kumquat] file: "# Projects"
-D, [2015-08-16T13:30:10.532904 #19244] DEBUG -- : [Kumquat] knitr Rscript: Rscript -e "setwd('/var/folders/sy/gsrl8ysx5jvdmjc61b__qyhw0000gn/T/kumquat_20150816-19244-60ayub'); library(knitr); library(DBI); library(RPostgres); knit2html('"# Projects"', options=c('use_xhtml', 'smartypants', 'mathjax', 'highlight_code', 'base64_images'));" 2>&1
-D, [2015-08-16T13:30:11.069997 #19244] DEBUG -- : [Kumquat] knitr output: Loading required package: methods
-Error: unexpected end of input
-Execution halted
-
-D, [2015-08-16T13:30:18.072939 #19372] DEBUG -- : [Kumquat] file: "# Projects"
-D, [2015-08-16T13:30:18.073181 #19372] DEBUG -- : [Kumquat] knitr Rscript: Rscript -e "setwd('/var/folders/sy/gsrl8ysx5jvdmjc61b__qyhw0000gn/T/kumquat_20150816-19372-qsrtux'); library(knitr); library(DBI); library(RPostgres); knit2html('"# Projects"', options=c('use_xhtml', 'smartypants', 'mathjax', 'highlight_code', 'base64_images'));" 2>&1
-D, [2015-08-16T13:30:18.609181 #19372] DEBUG -- : [Kumquat] knitr output: Loading required package: methods
-Error: unexpected end of input
-Execution halted
-
-D, [2015-08-16T13:31:57.260864 #19511] DEBUG -- : [Kumquat] file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"
-D, [2015-08-16T13:31:57.261079 #19511] DEBUG -- : [Kumquat] knitr Rscript: Rscript -e "setwd('/var/folders/sy/gsrl8ysx5jvdmjc61b__qyhw0000gn/T/kumquat_20150816-19511-1m2pnym'); library(knitr); library(DBI); library(RPostgres); knit2html('/Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"', options=c('use_xhtml', 'smartypants', 'mathjax', 'highlight_code', 'base64_images'));" 2>&1
-D, [2015-08-16T13:31:58.536093 #19511] DEBUG -- : [Kumquat] knitr output: Loading required package: methods
-
-
-processing file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/app/reports/test_report.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |...........                                                      |  17%
-  ordinary text without R code
-
-  |                                                                         |......................                                           |  33%
-label: unnamed-chunk-1 (with options) 
-List of 4
- $ fig.width : num 10
- $ fig.height: num 8
- $ echo      : logi FALSE
- $ message   : logi FALSE
-
-  |                                                                         |................................                                 |  50%
-  ordinary text without R code
-
-  |                                                                         |...........................................                      |  67%
-label: unnamed-chunk-2 (with options) 
-List of 4
- $ fig.width : num 10
- $ fig.height: num 8
- $ echo      : logi FALSE
- $ message   : logi FALSE
-
-  |                                                                         |......................................................           |  83%
-  ordinary text without R code
-
-  |                                                                         |.................................................................| 100%
-label: unnamed-chunk-3 (with options) 
-List of 2
- $ results: chr "asis"
- $ echo   : logi FALSE
-
-
-output file: test_report.md
-
-
-D, [2015-08-16T13:32:22.506726 #19642] DEBUG -- : [Kumquat] file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"
-D, [2015-08-16T13:32:22.506954 #19642] DEBUG -- : [Kumquat] knitr Rscript: Rscript -e "setwd('/var/folders/sy/gsrl8ysx5jvdmjc61b__qyhw0000gn/T/kumquat_20150816-19642-1ke0dzp'); library(knitr); library(DBI); library(RPostgres); knit2html('/Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"', options=c('use_xhtml', 'smartypants', 'mathjax', 'highlight_code', 'base64_images'));" 2>&1
-D, [2015-08-16T13:32:23.694383 #19642] DEBUG -- : [Kumquat] knitr output: Loading required package: methods
-
-
-processing file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/app/reports/test_report.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |...........                                                      |  17%
-  ordinary text without R code
-
-  |                                                                         |......................                                           |  33%
-label: unnamed-chunk-1 (with options) 
-List of 4
- $ fig.width : num 10
- $ fig.height: num 8
- $ echo      : logi FALSE
- $ message   : logi FALSE
-
-  |                                                                         |................................                                 |  50%
-  ordinary text without R code
-
-  |                                                                         |...........................................                      |  67%
-label: unnamed-chunk-2 (with options) 
-List of 4
- $ fig.width : num 10
- $ fig.height: num 8
- $ echo      : logi FALSE
- $ message   : logi FALSE
-
-  |                                                                         |......................................................           |  83%
-  ordinary text without R code
-
-  |                                                                         |.................................................................| 100%
-label: unnamed-chunk-3 (with options) 
-List of 2
- $ results: chr "asis"
- $ echo   : logi FALSE
-
-
-output file: test_report.md
-
-
-D, [2015-08-16T13:34:25.582725 #19783] DEBUG -- : [Kumquat] file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"
-D, [2015-08-16T13:34:25.583364 #19783] DEBUG -- : [Kumquat] knitr Rscript: Rscript -e "setwd('/var/folders/sy/gsrl8ysx5jvdmjc61b__qyhw0000gn/T/kumquat_20150816-19783-1ohax22'); library(knitr); library(DBI); library(RPostgres); knit2html('/Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"', options=c('use_xhtml', 'smartypants', 'mathjax', 'highlight_code', 'base64_images'));" 2>&1
-D, [2015-08-16T13:34:26.287739 #19783] DEBUG -- : [Kumquat] knitr output: Loading required package: methods
-
-
-processing file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/app/reports/test_report.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |................                                                 |  25%
-  ordinary text without R code
-
-  |                                                                         |................................                                 |  50%
-label: unnamed-chunk-1 (with options) 
-List of 4
- $ fig.width : num 10
- $ fig.height: num 8
- $ echo      : logi FALSE
- $ message   : logi FALSE
-
-  |                                                                         |.................................................                |  75%
-  ordinary text without R code
-
-  |                                                                         |.................................................................| 100%
-label: unnamed-chunk-2 (with options) 
-List of 4
- $ fig.width : num 10
- $ fig.height: num 8
- $ echo      : logi FALSE
- $ message   : logi FALSE
-
-
-output file: test_report.md
-
-
-D, [2015-08-16T13:34:36.135260 #19914] DEBUG -- : [Kumquat] file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"
-D, [2015-08-16T13:34:36.135525 #19914] DEBUG -- : [Kumquat] knitr Rscript: Rscript -e "setwd('/var/folders/sy/gsrl8ysx5jvdmjc61b__qyhw0000gn/T/kumquat_20150816-19914-1mio5g2'); library(knitr); library(DBI); library(RPostgres); knit2html('/Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"', options=c('use_xhtml', 'smartypants', 'mathjax', 'highlight_code', 'base64_images'));" 2>&1
-D, [2015-08-16T13:34:36.767082 #19914] DEBUG -- : [Kumquat] knitr output: Loading required package: methods
-
-
-processing file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/app/reports/test_report.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |................                                                 |  25%
-  ordinary text without R code
-
-  |                                                                         |................................                                 |  50%
-label: unnamed-chunk-1 (with options) 
-List of 4
- $ fig.width : num 10
- $ fig.height: num 8
- $ echo      : logi FALSE
- $ message   : logi FALSE
-
-  |                                                                         |.................................................                |  75%
-  ordinary text without R code
-
-  |                                                                         |.................................................................| 100%
-label: unnamed-chunk-2 (with options) 
-List of 4
- $ fig.width : num 10
- $ fig.height: num 8
- $ echo      : logi FALSE
- $ message   : logi FALSE
-
-
-output file: test_report.md
-
-
-D, [2015-08-16T13:38:18.184099 #20075] DEBUG -- : [Kumquat] file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"
-D, [2015-08-16T13:38:18.184745 #20075] DEBUG -- : [Kumquat] knitr Rscript: Rscript -e "setwd('/var/folders/sy/gsrl8ysx5jvdmjc61b__qyhw0000gn/T/kumquat_20150816-20075-7652xq'); library(knitr); library(DBI); library(RPostgres); knit2html('/Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"', options=c('use_xhtml', 'smartypants', 'mathjax', 'highlight_code', 'base64_images'));" 2>&1
-D, [2015-08-16T13:38:18.992343 #20075] DEBUG -- : [Kumquat] knitr output: Loading required package: methods
-
-
-processing file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/app/reports/test_report.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |................                                                 |  25%
-  ordinary text without R code
-
-  |                                                                         |................................                                 |  50%
-label: unnamed-chunk-1 (with options) 
-List of 4
- $ fig.width : num 10
- $ fig.height: num 8
- $ echo      : logi FALSE
- $ message   : logi FALSE
-
-  |                                                                         |.................................................                |  75%
-  ordinary text without R code
-
-  |                                                                         |.................................................................| 100%
-label: unnamed-chunk-2 (with options) 
-List of 4
- $ fig.width : num 10
- $ fig.height: num 8
- $ echo      : logi FALSE
- $ message   : logi FALSE
-
-
-output file: test_report.md
-
-
-D, [2015-08-16T13:39:02.824757 #20212] DEBUG -- : [Kumquat] file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"
-D, [2015-08-16T13:39:02.825698 #20212] DEBUG -- : [Kumquat] knitr Rscript: Rscript -e "setwd('/var/folders/sy/gsrl8ysx5jvdmjc61b__qyhw0000gn/T/kumquat_20150816-20212-1b5yvsb'); library(knitr); library(DBI); library(RPostgres); knit2html('/Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"', options=c('use_xhtml', 'smartypants', 'mathjax', 'highlight_code', 'base64_images'));" 2>&1
-D, [2015-08-16T13:39:03.590821 #20212] DEBUG -- : [Kumquat] knitr output: Loading required package: methods
-
-
-processing file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/app/reports/test_report.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |................                                                 |  25%
-  ordinary text without R code
-
-  |                                                                         |................................                                 |  50%
-label: unnamed-chunk-1 (with options) 
-List of 4
- $ fig.width : num 10
- $ fig.height: num 8
- $ echo      : logi FALSE
- $ message   : logi FALSE
-
-  |                                                                         |.................................................                |  75%
-  ordinary text without R code
-
-  |                                                                         |.................................................................| 100%
-label: unnamed-chunk-2 (with options) 
-List of 4
- $ fig.width : num 10
- $ fig.height: num 8
- $ echo      : logi FALSE
- $ message   : logi FALSE
-
-
-output file: test_report.md
-
-
-D, [2015-08-16T13:39:13.314071 #20341] DEBUG -- : [Kumquat] file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"
-D, [2015-08-16T13:39:13.314691 #20341] DEBUG -- : [Kumquat] knitr Rscript: Rscript -e "setwd('/var/folders/sy/gsrl8ysx5jvdmjc61b__qyhw0000gn/T/kumquat_20150816-20341-z3ko5n'); library(knitr); library(DBI); library(RPostgres); knit2html('/Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"', options=c('use_xhtml', 'smartypants', 'mathjax', 'highlight_code', 'base64_images'));" 2>&1
-D, [2015-08-16T13:39:14.014357 #20341] DEBUG -- : [Kumquat] knitr output: Loading required package: methods
-
-
-processing file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/app/reports/test_report.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |................                                                 |  25%
-  ordinary text without R code
-
-  |                                                                         |................................                                 |  50%
-label: unnamed-chunk-1 (with options) 
-List of 4
- $ fig.width : num 10
- $ fig.height: num 8
- $ echo      : logi FALSE
- $ message   : logi FALSE
-
-  |                                                                         |.................................................                |  75%
-  ordinary text without R code
-
-  |                                                                         |.................................................................| 100%
-label: unnamed-chunk-2 (with options) 
-List of 4
- $ fig.width : num 10
- $ fig.height: num 8
- $ echo      : logi FALSE
- $ message   : logi FALSE
-
-
-output file: test_report.md
-
-
-D, [2015-08-16T13:39:25.424349 #20473] DEBUG -- : [Kumquat] file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"
-D, [2015-08-16T13:39:25.424892 #20473] DEBUG -- : [Kumquat] knitr Rscript: Rscript -e "setwd('/var/folders/sy/gsrl8ysx5jvdmjc61b__qyhw0000gn/T/kumquat_20150816-20473-8syljf'); library(knitr); library(DBI); library(RPostgres); knit2html('/Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"', options=c('use_xhtml', 'smartypants', 'mathjax', 'highlight_code', 'base64_images'));" 2>&1
-D, [2015-08-16T13:39:26.118170 #20473] DEBUG -- : [Kumquat] knitr output: Loading required package: methods
-
-
-processing file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/app/reports/test_report.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |................                                                 |  25%
-  ordinary text without R code
-
-  |                                                                         |................................                                 |  50%
-label: unnamed-chunk-1 (with options) 
-List of 4
- $ fig.width : num 10
- $ fig.height: num 8
- $ echo      : logi FALSE
- $ message   : logi FALSE
-
-  |                                                                         |.................................................                |  75%
-  ordinary text without R code
-
-  |                                                                         |.................................................................| 100%
-label: unnamed-chunk-2 (with options) 
-List of 4
- $ fig.width : num 10
- $ fig.height: num 8
- $ echo      : logi FALSE
- $ message   : logi FALSE
-
-
-output file: test_report.md
-
-
-D, [2015-08-16T13:40:59.266298 #20611] DEBUG -- : [Kumquat] file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"
-D, [2015-08-16T13:40:59.266933 #20611] DEBUG -- : [Kumquat] knitr Rscript: Rscript -e "setwd('/var/folders/sy/gsrl8ysx5jvdmjc61b__qyhw0000gn/T/kumquat_20150816-20611-1fwxdcc'); library(knitr); library(DBI); library(RPostgres); knit2html('/Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"', options=c('use_xhtml', 'smartypants', 'mathjax', 'highlight_code', 'base64_images'));" 2>&1
-D, [2015-08-16T13:40:59.971305 #20611] DEBUG -- : [Kumquat] knitr output: Loading required package: methods
-
-
-processing file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/app/reports/test_report.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |................                                                 |  25%
-  ordinary text without R code
-
-  |                                                                         |................................                                 |  50%
-label: unnamed-chunk-1 (with options) 
-List of 4
- $ fig.width : num 10
- $ fig.height: num 8
- $ echo      : logi FALSE
- $ message   : logi FALSE
-
-  |                                                                         |.................................................                |  75%
-  ordinary text without R code
-
-  |                                                                         |.................................................................| 100%
-label: unnamed-chunk-2 (with options) 
-List of 4
- $ fig.width : num 10
- $ fig.height: num 8
- $ echo      : logi FALSE
- $ message   : logi FALSE
-
-
-output file: test_report.md
-
-
-D, [2015-08-16T13:42:47.338270 #20754] DEBUG -- : [Kumquat] file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"
-D, [2015-08-16T13:42:47.339043 #20754] DEBUG -- : [Kumquat] knitr Rscript: Rscript -e "setwd('/var/folders/sy/gsrl8ysx5jvdmjc61b__qyhw0000gn/T/kumquat_20150816-20754-1cja51h'); library(knitr); library(DBI); library(RPostgres); knit2html('/Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"', options=c('use_xhtml', 'smartypants', 'mathjax', 'highlight_code', 'base64_images'));" 2>&1
-D, [2015-08-16T13:42:47.966266 #20754] DEBUG -- : [Kumquat] knitr output: Loading required package: methods
-
-
-processing file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/app/reports/test_report.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
-  ordinary text without R code
-
-  |                                                                         |.................................................................| 100%
-label: unnamed-chunk-1 (with options) 
-List of 4
- $ fig.width : num 10
- $ fig.height: num 8
- $ echo      : logi FALSE
- $ message   : logi FALSE
-
-
-output file: test_report.md
-
-
-D, [2015-08-16T13:47:22.334759 #20914] DEBUG -- : [Kumquat] file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"
-D, [2015-08-16T13:47:22.335402 #20914] DEBUG -- : [Kumquat] knitr Rscript: Rscript -e "setwd('/var/folders/sy/gsrl8ysx5jvdmjc61b__qyhw0000gn/T/kumquat_20150816-20914-15zhc0e'); library(knitr); library(DBI); library(RPostgres); knit2html('/Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"', options=c('use_xhtml', 'smartypants', 'mathjax', 'highlight_code', 'base64_images'));" 2>&1
-D, [2015-08-16T13:47:23.051273 #20914] DEBUG -- : [Kumquat] knitr output: Loading required package: methods
-
-
-processing file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/app/reports/test_report.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
-  ordinary text without R code
-
-  |                                                                         |.................................................................| 100%
-label: unnamed-chunk-1 (with options) 
-List of 4
- $ fig.width : num 10
- $ fig.height: num 8
- $ echo      : logi FALSE
- $ message   : logi FALSE
-
-
-output file: test_report.md
-
-
-D, [2015-08-16T13:48:23.647808 #21056] DEBUG -- : [Kumquat] file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"
-D, [2015-08-16T13:48:23.648543 #21056] DEBUG -- : [Kumquat] knitr Rscript: Rscript -e "setwd('/var/folders/sy/gsrl8ysx5jvdmjc61b__qyhw0000gn/T/kumquat_20150816-21056-gkur3v'); library(knitr); library(DBI); library(RPostgres); knit2html('/Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"', options=c('use_xhtml', 'smartypants', 'mathjax', 'highlight_code', 'base64_images'));" 2>&1
-D, [2015-08-16T13:48:24.294892 #21056] DEBUG -- : [Kumquat] knitr output: Loading required package: methods
-
-
-processing file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/app/reports/test_report.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
-  ordinary text without R code
-
-  |                                                                         |.................................................................| 100%
-label: unnamed-chunk-1 (with options) 
-List of 5
- $ results   : chr "asis"
- $ fig.width : num 10
- $ fig.height: num 8
- $ echo      : logi FALSE
- $ message   : logi FALSE
-
-
-output file: test_report.md
-
-
-D, [2015-08-16T13:48:53.377347 #21188] DEBUG -- : [Kumquat] file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"
-D, [2015-08-16T13:48:53.377687 #21188] DEBUG -- : [Kumquat] knitr Rscript: Rscript -e "setwd('/var/folders/sy/gsrl8ysx5jvdmjc61b__qyhw0000gn/T/kumquat_20150816-21188-13vs0dz'); library(knitr); library(DBI); library(RPostgres); knit2html('/Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"', options=c('use_xhtml', 'smartypants', 'mathjax', 'highlight_code', 'base64_images'));" 2>&1
-D, [2015-08-16T13:48:53.952123 #21188] DEBUG -- : [Kumquat] knitr output: Loading required package: methods
-
-
-processing file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/app/reports/test_report.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
-  ordinary text without R code
-
-  |                                                                         |.................................................................| 100%
-label: unnamed-chunk-1 (with options) 
-List of 5
- $ results   : chr "asis"
- $ fig.width : num 10
- $ fig.height: num 8
- $ echo      : logi FALSE
- $ message   : logi FALSE
-
-
-output file: test_report.md
-
-
-D, [2015-08-16T13:49:40.281324 #21326] DEBUG -- : [Kumquat] file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"
-D, [2015-08-16T13:49:40.281579 #21326] DEBUG -- : [Kumquat] knitr Rscript: Rscript -e "setwd('/var/folders/sy/gsrl8ysx5jvdmjc61b__qyhw0000gn/T/kumquat_20150816-21326-9r2wn9'); library(knitr); library(DBI); library(RPostgres); knit2html('/Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"', options=c('use_xhtml', 'smartypants', 'mathjax', 'highlight_code', 'base64_images'));" 2>&1
-D, [2015-08-16T13:49:40.948356 #21326] DEBUG -- : [Kumquat] knitr output: Loading required package: methods
-
-
-processing file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/app/reports/test_report.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
-  ordinary text without R code
-
-  |                                                                         |.................................................................| 100%
-label: unnamed-chunk-1 (with options) 
-List of 5
- $ comment   : logi NA
- $ fig.width : num 10
- $ fig.height: num 8
- $ echo      : logi FALSE
- $ message   : logi FALSE
-
-
-output file: test_report.md
-
-
-D, [2015-08-16T13:55:43.826743 #21868] DEBUG -- : [Kumquat] file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"
-D, [2015-08-16T13:55:43.827378 #21868] DEBUG -- : [Kumquat] knitr Rscript: Rscript -e "setwd('/var/folders/sy/gsrl8ysx5jvdmjc61b__qyhw0000gn/T/kumquat_20150816-21868-3s7126'); library(knitr); library(DBI); library(RPostgres); knit2html('/Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"', options=c('use_xhtml', 'smartypants', 'mathjax', 'highlight_code', 'base64_images'));" 2>&1
-D, [2015-08-16T13:55:44.482613 #21868] DEBUG -- : [Kumquat] knitr output: Loading required package: methods
-
-
-processing file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/app/reports/test_report.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
-  ordinary text without R code
-
-  |                                                                         |.................................................................| 100%
-label: unnamed-chunk-1 (with options) 
-List of 5
- $ comment   : logi NA
- $ fig.width : num 10
- $ fig.height: num 8
- $ echo      : logi FALSE
- $ message   : logi FALSE
-
-
-output file: test_report.md
-
-
-D, [2015-08-16T13:55:54.768452 #21997] DEBUG -- : [Kumquat] file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"
-D, [2015-08-16T13:55:54.769070 #21997] DEBUG -- : [Kumquat] knitr Rscript: Rscript -e "setwd('/var/folders/sy/gsrl8ysx5jvdmjc61b__qyhw0000gn/T/kumquat_20150816-21997-1bv9aqy'); library(knitr); library(DBI); library(RPostgres); knit2html('/Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"', options=c('use_xhtml', 'smartypants', 'mathjax', 'highlight_code', 'base64_images'));" 2>&1
-D, [2015-08-16T13:55:55.346830 #21997] DEBUG -- : [Kumquat] knitr output: Loading required package: methods
-
-
-processing file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/app/reports/test_report.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
-  ordinary text without R code
-
-  |                                                                         |.................................................................| 100%
-label: unnamed-chunk-1 (with options) 
-List of 5
- $ comment   : logi NA
- $ fig.width : num 10
- $ fig.height: num 8
- $ echo      : logi FALSE
- $ message   : logi FALSE
-
-
-output file: test_report.md
-
-
-D, [2015-08-16T13:56:47.920496 #22128] DEBUG -- : [Kumquat] file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"
-D, [2015-08-16T13:56:47.920763 #22128] DEBUG -- : [Kumquat] knitr Rscript: Rscript -e "setwd('/var/folders/sy/gsrl8ysx5jvdmjc61b__qyhw0000gn/T/kumquat_20150816-22128-1eq60g8'); library(knitr); library(DBI); library(RPostgres); knit2html('/Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"', options=c('use_xhtml', 'smartypants', 'mathjax', 'highlight_code', 'base64_images'));" 2>&1
-D, [2015-08-16T13:56:48.491324 #22128] DEBUG -- : [Kumquat] knitr output: Loading required package: methods
-
-
-processing file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/app/reports/test_report.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
-  ordinary text without R code
-
-  |                                                                         |.................................................................| 100%
-label: unnamed-chunk-1 (with options) 
-List of 5
- $ comment   : logi NA
- $ fig.width : num 10
- $ fig.height: num 8
- $ echo      : logi FALSE
- $ message   : logi FALSE
-
-
-output file: test_report.md
-
-
-D, [2015-08-16T13:57:17.675590 #22260] DEBUG -- : [Kumquat] file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"
-D, [2015-08-16T13:57:17.675838 #22260] DEBUG -- : [Kumquat] knitr Rscript: Rscript -e "setwd('/var/folders/sy/gsrl8ysx5jvdmjc61b__qyhw0000gn/T/kumquat_20150816-22260-1kwfj75'); library(knitr); library(DBI); library(RPostgres); knit2html('/Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"', options=c('use_xhtml', 'smartypants', 'mathjax', 'highlight_code', 'base64_images'));" 2>&1
-D, [2015-08-16T13:57:18.258739 #22260] DEBUG -- : [Kumquat] knitr output: Loading required package: methods
-
-
-processing file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/app/reports/test_report.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
-  ordinary text without R code
-
-  |                                                                         |.................................................................| 100%
-label: unnamed-chunk-1 (with options) 
-List of 5
- $ comment   : logi NA
- $ fig.width : num 10
- $ fig.height: num 8
- $ echo      : logi FALSE
- $ message   : logi FALSE
-
-
-output file: test_report.md
-
-
-D, [2015-08-16T14:04:39.889241 #22415] DEBUG -- : [Kumquat] file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"
-D, [2015-08-16T14:04:39.889743 #22415] DEBUG -- : [Kumquat] knitr Rscript: Rscript -e "setwd('/var/folders/sy/gsrl8ysx5jvdmjc61b__qyhw0000gn/T/kumquat_20150816-22415-1bl41e5'); library(knitr); library(DBI); library(RPostgres); knit2html('/Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"', options=c('use_xhtml', 'smartypants', 'mathjax', 'highlight_code', 'base64_images'));" 2>&1
-D, [2015-08-16T14:04:40.547622 #22415] DEBUG -- : [Kumquat] knitr output: Loading required package: methods
-
-
-processing file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/app/reports/test_report.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
-  ordinary text without R code
-
-  |                                                                         |.................................................................| 100%
-label: unnamed-chunk-1 (with options) 
-List of 5
- $ comment   : logi NA
- $ fig.width : num 10
- $ fig.height: num 8
- $ echo      : logi FALSE
- $ message   : logi FALSE
-
-
-output file: test_report.md
-
-
-D, [2015-08-16T14:09:21.503976 #22678] DEBUG -- : [Kumquat] file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"
-D, [2015-08-16T14:09:21.504594 #22678] DEBUG -- : [Kumquat] knitr Rscript: Rscript -e "setwd('/var/folders/sy/gsrl8ysx5jvdmjc61b__qyhw0000gn/T/kumquat_20150816-22678-rgiskf'); library(knitr); library(DBI); library(RPostgres); knit2html('/Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"', options=c('use_xhtml', 'smartypants', 'mathjax', 'highlight_code', 'base64_images'));" 2>&1
-D, [2015-08-16T14:09:22.139955 #22678] DEBUG -- : [Kumquat] knitr output: Loading required package: methods
-
-
-processing file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/app/reports/test_report.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
-  ordinary text without R code
-
-  |                                                                         |.................................................................| 100%
-label: unnamed-chunk-1 (with options) 
-List of 5
- $ comment   : logi NA
- $ fig.width : num 10
- $ fig.height: num 8
- $ echo      : logi FALSE
- $ message   : logi FALSE
-
-
-output file: test_report.md
-
-
-D, [2015-08-16T14:09:47.876911 #22924] DEBUG -- : [Kumquat] file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"
-D, [2015-08-16T14:09:47.877445 #22924] DEBUG -- : [Kumquat] knitr Rscript: Rscript -e "setwd('/var/folders/sy/gsrl8ysx5jvdmjc61b__qyhw0000gn/T/kumquat_20150816-22924-1buvkw9'); library(knitr); library(DBI); library(RPostgres); knit2html('/Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"', options=c('use_xhtml', 'smartypants', 'mathjax', 'highlight_code', 'base64_images'));" 2>&1
-D, [2015-08-16T14:09:48.497129 #22924] DEBUG -- : [Kumquat] knitr output: Loading required package: methods
-
-
-processing file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/app/reports/test_report.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
-  ordinary text without R code
-
-  |                                                                         |.................................................................| 100%
-label: unnamed-chunk-1 (with options) 
-List of 5
- $ comment   : logi NA
- $ fig.width : num 10
- $ fig.height: num 8
- $ echo      : logi FALSE
- $ message   : logi FALSE
-
-
-output file: test_report.md
-
-
-D, [2015-08-16T14:10:43.448974 #23056] DEBUG -- : [Kumquat] file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"
-D, [2015-08-16T14:10:43.449182 #23056] DEBUG -- : [Kumquat] knitr Rscript: Rscript -e "setwd('/var/folders/sy/gsrl8ysx5jvdmjc61b__qyhw0000gn/T/kumquat_20150816-23056-1hv3z5k'); library(knitr); library(DBI); library(RPostgres); knit2html('/Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"', options=c('use_xhtml', 'smartypants', 'mathjax', 'highlight_code', 'base64_images'));" 2>&1
-D, [2015-08-16T14:10:44.018612 #23056] DEBUG -- : [Kumquat] knitr output: Loading required package: methods
-
-
-processing file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/app/reports/test_report.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
-  ordinary text without R code
-
-  |                                                                         |.................................................................| 100%
-label: unnamed-chunk-1 (with options) 
-List of 5
- $ comment   : logi NA
- $ fig.width : num 10
- $ fig.height: num 8
- $ echo      : logi FALSE
- $ message   : logi FALSE
-
-
-output file: test_report.md
-
-
-D, [2015-08-16T14:10:58.220266 #23186] DEBUG -- : [Kumquat] file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"
-D, [2015-08-16T14:10:58.220575 #23186] DEBUG -- : [Kumquat] knitr Rscript: Rscript -e "setwd('/var/folders/sy/gsrl8ysx5jvdmjc61b__qyhw0000gn/T/kumquat_20150816-23186-haizxu'); library(knitr); library(DBI); library(RPostgres); knit2html('/Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"', options=c('use_xhtml', 'smartypants', 'mathjax', 'highlight_code', 'base64_images'));" 2>&1
-D, [2015-08-16T14:10:58.816372 #23186] DEBUG -- : [Kumquat] knitr output: Loading required package: methods
-
-
-processing file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/app/reports/test_report.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
-  ordinary text without R code
-
-  |                                                                         |.................................................................| 100%
-label: unnamed-chunk-1 (with options) 
-List of 5
- $ comment   : logi NA
- $ fig.width : num 10
- $ fig.height: num 8
- $ echo      : logi FALSE
- $ message   : logi FALSE
-
-
-output file: test_report.md
-
-
-D, [2015-08-16T14:11:30.836092 #23316] DEBUG -- : [Kumquat] file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"
-D, [2015-08-16T14:11:30.837062 #23316] DEBUG -- : [Kumquat] knitr Rscript: Rscript -e "setwd('/var/folders/sy/gsrl8ysx5jvdmjc61b__qyhw0000gn/T/kumquat_20150816-23316-erimf1'); library(knitr); library(DBI); library(RPostgres); knit2html('/Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"', options=c('use_xhtml', 'smartypants', 'mathjax', 'highlight_code', 'base64_images'));" 2>&1
-D, [2015-08-16T14:11:31.415274 #23316] DEBUG -- : [Kumquat] knitr output: Loading required package: methods
-
-
-processing file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/app/reports/test_report.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
-  ordinary text without R code
-
-  |                                                                         |.................................................................| 100%
-label: unnamed-chunk-1 (with options) 
-List of 5
- $ comment   : logi NA
- $ fig.width : num 10
- $ fig.height: num 8
- $ echo      : logi FALSE
- $ message   : logi FALSE
-
-
-output file: test_report.md
-
-
-D, [2015-08-16T14:12:31.592136 #23459] DEBUG -- : [Kumquat] file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"
-D, [2015-08-16T14:12:31.592778 #23459] DEBUG -- : [Kumquat] knitr Rscript: Rscript -e "setwd('/var/folders/sy/gsrl8ysx5jvdmjc61b__qyhw0000gn/T/kumquat_20150816-23459-1swxcs2'); library(knitr); library(DBI); library(RPostgres); knit2html('/Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"', options=c('use_xhtml', 'smartypants', 'mathjax', 'highlight_code', 'base64_images'));" 2>&1
-D, [2015-08-16T14:12:32.278486 #23459] DEBUG -- : [Kumquat] knitr output: Loading required package: methods
-
-
-processing file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/app/reports/test_report.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
-  ordinary text without R code
-
-  |                                                                         |.................................................................| 100%
-label: unnamed-chunk-1 (with options) 
-List of 5
- $ comment   : logi NA
- $ fig.width : num 10
- $ fig.height: num 8
- $ echo      : logi FALSE
- $ message   : logi FALSE
-
-
-output file: test_report.md
-
-
-D, [2015-08-16T14:12:52.516149 #23589] DEBUG -- : [Kumquat] file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"
-D, [2015-08-16T14:12:52.517135 #23589] DEBUG -- : [Kumquat] knitr Rscript: Rscript -e "setwd('/var/folders/sy/gsrl8ysx5jvdmjc61b__qyhw0000gn/T/kumquat_20150816-23589-1p51q4w'); library(knitr); library(DBI); library(RPostgres); knit2html('/Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"', options=c('use_xhtml', 'smartypants', 'mathjax', 'highlight_code', 'base64_images'));" 2>&1
-D, [2015-08-16T14:12:53.139110 #23589] DEBUG -- : [Kumquat] knitr output: Loading required package: methods
-
-
-processing file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/app/reports/test_report.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
-  ordinary text without R code
-
-  |                                                                         |.................................................................| 100%
-label: unnamed-chunk-1 (with options) 
-List of 5
- $ comment   : logi NA
- $ fig.width : num 10
- $ fig.height: num 8
- $ echo      : logi FALSE
- $ message   : logi FALSE
-
-
-output file: test_report.md
-
-
-D, [2015-08-16T14:23:13.378903 #24379] DEBUG -- : [Kumquat] file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"
-D, [2015-08-16T14:23:13.379586 #24379] DEBUG -- : [Kumquat] knitr Rscript: Rscript -e "setwd('/var/folders/sy/gsrl8ysx5jvdmjc61b__qyhw0000gn/T/kumquat_20150816-24379-y81kc1'); library(knitr); library(DBI); library(RPostgres); knit2html('/Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"', options=c('use_xhtml', 'smartypants', 'mathjax', 'highlight_code', 'base64_images'));" 2>&1
-D, [2015-08-16T14:23:14.042026 #24379] DEBUG -- : [Kumquat] knitr output: Loading required package: methods
-
-
-processing file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/app/reports/test_report.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
-  ordinary text without R code
-
-  |                                                                         |.................................................................| 100%
-label: unnamed-chunk-1 (with options) 
-List of 5
- $ comment   : logi NA
- $ fig.width : num 10
- $ fig.height: num 8
- $ echo      : logi FALSE
- $ message   : logi FALSE
-
-
-output file: test_report.md
-
-
-D, [2015-08-16T14:31:15.993812 #25821] DEBUG -- : [Kumquat] file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"
-D, [2015-08-16T14:31:15.994473 #25821] DEBUG -- : [Kumquat] knitr Rscript: Rscript -e "setwd('/var/folders/sy/gsrl8ysx5jvdmjc61b__qyhw0000gn/T/kumquat_20150816-25821-1dkf11c'); library(knitr); library(DBI); library(RPostgres); knit2html('/Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"', options=c('use_xhtml', 'smartypants', 'mathjax', 'highlight_code', 'base64_images'));" 2>&1
-D, [2015-08-16T14:31:16.705822 #25821] DEBUG -- : [Kumquat] knitr output: Loading required package: methods
-
-
-processing file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/app/reports/test_report.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
-  ordinary text without R code
-
-  |                                                                         |.................................................................| 100%
-label: unnamed-chunk-1 (with options) 
-List of 5
- $ comment   : logi NA
- $ fig.width : num 10
- $ fig.height: num 8
- $ echo      : logi FALSE
- $ message   : logi FALSE
-
-
-output file: test_report.md
-
-
-D, [2015-08-16T14:31:27.222328 #25953] DEBUG -- : [Kumquat] file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"
-D, [2015-08-16T14:31:27.222979 #25953] DEBUG -- : [Kumquat] knitr Rscript: Rscript -e "setwd('/var/folders/sy/gsrl8ysx5jvdmjc61b__qyhw0000gn/T/kumquat_20150816-25953-1hvkkmd'); library(knitr); library(DBI); library(RPostgres); knit2html('/Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"', options=c('use_xhtml', 'smartypants', 'mathjax', 'highlight_code', 'base64_images'));" 2>&1
-D, [2015-08-16T14:31:27.898935 #25953] DEBUG -- : [Kumquat] knitr output: Loading required package: methods
-
-
-processing file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/app/reports/test_report.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
-  ordinary text without R code
-
-  |                                                                         |.................................................................| 100%
-label: unnamed-chunk-1 (with options) 
-List of 5
- $ comment   : logi NA
- $ fig.width : num 10
- $ fig.height: num 8
- $ echo      : logi FALSE
- $ message   : logi FALSE
-
-
-output file: test_report.md
-
-
-D, [2015-08-16T14:32:29.485147 #26089] DEBUG -- : [Kumquat] file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"
-D, [2015-08-16T14:32:29.485704 #26089] DEBUG -- : [Kumquat] knitr Rscript: Rscript -e "setwd('/var/folders/sy/gsrl8ysx5jvdmjc61b__qyhw0000gn/T/kumquat_20150816-26089-n604jy'); library(knitr); library(DBI); library(RPostgres); knit2html('/Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"', options=c('use_xhtml', 'smartypants', 'mathjax', 'highlight_code', 'base64_images'));" 2>&1
-D, [2015-08-16T14:32:30.147724 #26089] DEBUG -- : [Kumquat] knitr output: Loading required package: methods
-
-
-processing file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/app/reports/test_report.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
-  ordinary text without R code
-
-  |                                                                         |.................................................................| 100%
-label: unnamed-chunk-1 (with options) 
-List of 5
- $ comment   : logi NA
- $ fig.width : num 10
- $ fig.height: num 8
- $ echo      : logi FALSE
- $ message   : logi FALSE
-
-
-output file: test_report.md
-
-
-D, [2015-08-16T14:32:53.312044 #26219] DEBUG -- : [Kumquat] file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"
-D, [2015-08-16T14:32:53.312276 #26219] DEBUG -- : [Kumquat] knitr Rscript: Rscript -e "setwd('/var/folders/sy/gsrl8ysx5jvdmjc61b__qyhw0000gn/T/kumquat_20150816-26219-5shfx8'); library(knitr); library(DBI); library(RPostgres); knit2html('/Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"', options=c('use_xhtml', 'smartypants', 'mathjax', 'highlight_code', 'base64_images'));" 2>&1
-D, [2015-08-16T14:32:53.922812 #26219] DEBUG -- : [Kumquat] knitr output: Loading required package: methods
-
-
-processing file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/app/reports/test_report.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
-  ordinary text without R code
-
-  |                                                                         |.................................................................| 100%
-label: unnamed-chunk-1 (with options) 
-List of 5
- $ comment   : logi NA
- $ fig.width : num 10
- $ fig.height: num 8
- $ echo      : logi FALSE
- $ message   : logi FALSE
-
-
-output file: test_report.md
-
-
-D, [2015-08-16T14:33:10.985848 #26347] DEBUG -- : [Kumquat] file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"
-D, [2015-08-16T14:33:10.986068 #26347] DEBUG -- : [Kumquat] knitr Rscript: Rscript -e "setwd('/var/folders/sy/gsrl8ysx5jvdmjc61b__qyhw0000gn/T/kumquat_20150816-26347-1ipa18c'); library(knitr); library(DBI); library(RPostgres); knit2html('/Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"', options=c('use_xhtml', 'smartypants', 'mathjax', 'highlight_code', 'base64_images'));" 2>&1
-D, [2015-08-16T14:33:11.594038 #26347] DEBUG -- : [Kumquat] knitr output: Loading required package: methods
-
-
-processing file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/app/reports/test_report.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
-  ordinary text without R code
-
-  |                                                                         |.................................................................| 100%
-label: unnamed-chunk-1 (with options) 
-List of 5
- $ comment   : logi NA
- $ fig.width : num 10
- $ fig.height: num 8
- $ echo      : logi FALSE
- $ message   : logi FALSE
-
-
-output file: test_report.md
-
-
-D, [2015-08-16T14:33:27.090875 #26478] DEBUG -- : [Kumquat] file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"
-D, [2015-08-16T14:33:27.091098 #26478] DEBUG -- : [Kumquat] knitr Rscript: Rscript -e "setwd('/var/folders/sy/gsrl8ysx5jvdmjc61b__qyhw0000gn/T/kumquat_20150816-26478-qnwct1'); library(knitr); library(DBI); library(RPostgres); knit2html('/Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"', options=c('use_xhtml', 'smartypants', 'mathjax', 'highlight_code', 'base64_images'));" 2>&1
-D, [2015-08-16T14:33:27.706507 #26478] DEBUG -- : [Kumquat] knitr output: Loading required package: methods
-
-
-processing file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/app/reports/test_report.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
-  ordinary text without R code
-
-  |                                                                         |.................................................................| 100%
-label: unnamed-chunk-1 (with options) 
-List of 5
- $ comment   : logi NA
- $ fig.width : num 10
- $ fig.height: num 8
- $ echo      : logi FALSE
- $ message   : logi FALSE
-
-
-output file: test_report.md
-
-
-D, [2015-08-16T14:33:39.653475 #26607] DEBUG -- : [Kumquat] file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"
-D, [2015-08-16T14:33:39.653788 #26607] DEBUG -- : [Kumquat] knitr Rscript: Rscript -e "setwd('/var/folders/sy/gsrl8ysx5jvdmjc61b__qyhw0000gn/T/kumquat_20150816-26607-5uq0gt'); library(knitr); library(DBI); library(RPostgres); knit2html('/Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"', options=c('use_xhtml', 'smartypants', 'mathjax', 'highlight_code', 'base64_images'));" 2>&1
-D, [2015-08-16T14:33:40.261133 #26607] DEBUG -- : [Kumquat] knitr output: Loading required package: methods
-
-
-processing file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/app/reports/test_report.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
-  ordinary text without R code
-
-  |                                                                         |.................................................................| 100%
-label: unnamed-chunk-1 (with options) 
-List of 5
- $ comment   : logi NA
- $ fig.width : num 10
- $ fig.height: num 8
- $ echo      : logi FALSE
- $ message   : logi FALSE
-
-
-output file: test_report.md
-
-
-D, [2015-08-16T14:36:05.143302 #26867] DEBUG -- : [Kumquat] file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"
-D, [2015-08-16T14:36:05.144009 #26867] DEBUG -- : [Kumquat] knitr Rscript: Rscript -e "setwd('/var/folders/sy/gsrl8ysx5jvdmjc61b__qyhw0000gn/T/kumquat_20150816-26867-1r9we4e'); library(knitr); library(DBI); library(RPostgres); knit2html('/Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"', options=c('use_xhtml', 'smartypants', 'mathjax', 'highlight_code', 'base64_images'));" 2>&1
-D, [2015-08-16T14:36:05.812490 #26867] DEBUG -- : [Kumquat] knitr output: Loading required package: methods
-
-
-processing file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/app/reports/test_report.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
-  ordinary text without R code
-
-  |                                                                         |.................................................................| 100%
-label: unnamed-chunk-1 (with options) 
-List of 5
- $ comment   : logi NA
- $ fig.width : num 10
- $ fig.height: num 8
- $ echo      : logi FALSE
- $ message   : logi FALSE
-
-
-output file: test_report.md
-
-
-D, [2015-08-16T14:36:35.057852 #26999] DEBUG -- : [Kumquat] file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"
-D, [2015-08-16T14:36:35.058317 #26999] DEBUG -- : [Kumquat] knitr Rscript: Rscript -e "setwd('/var/folders/sy/gsrl8ysx5jvdmjc61b__qyhw0000gn/T/kumquat_20150816-26999-ctq3px'); library(knitr); library(DBI); library(RPostgres); source('redshift_credentials.r'); knit2html('/Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"', options=c('use_xhtml', 'smartypants', 'mathjax', 'highlight_code', 'base64_images'));" 2>&1
-D, [2015-08-16T14:36:35.589325 #26999] DEBUG -- : [Kumquat] knitr output: Loading required package: methods
-Error in unlist(list(dbname = dbname, user = user, password = password,  : 
-  argument is missing, with no default
-Calls: source ... eval -> eval -> dbConnect -> dbConnect -> .local -> unlist
-Execution halted
-
-D, [2015-08-16T14:36:44.429030 #27127] DEBUG -- : [Kumquat] file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"
-D, [2015-08-16T14:36:44.429628 #27127] DEBUG -- : [Kumquat] knitr Rscript: Rscript -e "setwd('/var/folders/sy/gsrl8ysx5jvdmjc61b__qyhw0000gn/T/kumquat_20150816-27127-1wdzmcr'); library(knitr); library(DBI); library(RPostgres); source('redshift_credentials.r'); knit2html('/Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"', options=c('use_xhtml', 'smartypants', 'mathjax', 'highlight_code', 'base64_images'));" 2>&1
-D, [2015-08-16T14:36:44.959497 #27127] DEBUG -- : [Kumquat] knitr output: Loading required package: methods
-Error in unlist(list(dbname = dbname, user = user, password = password,  : 
-  argument is missing, with no default
-Calls: source ... eval -> eval -> dbConnect -> dbConnect -> .local -> unlist
-Execution halted
-
-D, [2015-08-16T14:42:24.244094 #28004] DEBUG -- : [Kumquat] file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"
-D, [2015-08-16T14:42:24.244846 #28004] DEBUG -- : [Kumquat] knitr Rscript: Rscript -e "setwd('/var/folders/sy/gsrl8ysx5jvdmjc61b__qyhw0000gn/T/kumquat_20150816-28004-1kky435'); library(knitr); library(DBI); library(RPostgres); source('redshift_credentials.r'); knit2html('/Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"', options=c('use_xhtml', 'smartypants', 'mathjax', 'highlight_code', 'base64_images'));" 2>&1
-D, [2015-08-16T14:42:24.755479 #28004] DEBUG -- : [Kumquat] knitr output: Loading required package: methods
-Error in unlist(list(dbname = dbname, user = user, password = password,  : 
-  argument is missing, with no default
-Calls: source ... eval -> eval -> dbConnect -> dbConnect -> .local -> unlist
-Execution halted
-
-D, [2015-08-16T14:42:44.222684 #28164] DEBUG -- : [Kumquat] file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"
-D, [2015-08-16T14:42:44.222932 #28164] DEBUG -- : [Kumquat] knitr Rscript: Rscript -e "setwd('/var/folders/sy/gsrl8ysx5jvdmjc61b__qyhw0000gn/T/kumquat_20150816-28164-1in0nfs'); library(knitr); library(DBI); library(RPostgres); knit2html('/Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"', options=c('use_xhtml', 'smartypants', 'mathjax', 'highlight_code', 'base64_images'));" 2>&1
-D, [2015-08-16T14:42:44.804708 #28164] DEBUG -- : [Kumquat] knitr output: Loading required package: methods
-
-
-processing file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/app/reports/test_report.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
-  ordinary text without R code
-
-  |                                                                         |.................................................................| 100%
-label: unnamed-chunk-1 (with options) 
-List of 5
- $ comment   : logi NA
- $ fig.width : num 10
- $ fig.height: num 8
- $ echo      : logi FALSE
- $ message   : logi FALSE
-
-
-output file: test_report.md
-
-
-D, [2015-08-16T14:46:37.814061 #28613] DEBUG -- : [Kumquat] file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"
-D, [2015-08-16T14:46:37.814370 #28613] DEBUG -- : [Kumquat] knitr Rscript: Rscript -e "setwd('/var/folders/sy/gsrl8ysx5jvdmjc61b__qyhw0000gn/T/kumquat_20150816-28613-3pmm81'); library(knitr); library(DBI); library(RPostgres); knit2html('/Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"', options=c('use_xhtml', 'smartypants', 'mathjax', 'highlight_code', 'base64_images'));" 2>&1
-D, [2015-08-16T14:46:38.396538 #28613] DEBUG -- : [Kumquat] knitr output: Loading required package: methods
-
-
-processing file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/app/reports/test_report.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
-  ordinary text without R code
-
-  |                                                                         |.................................................................| 100%
-label: unnamed-chunk-1 (with options) 
-List of 5
- $ comment   : logi NA
- $ fig.width : num 10
- $ fig.height: num 8
- $ echo      : logi FALSE
- $ message   : logi FALSE
-
-
-output file: test_report.md
-
-
-D, [2015-08-16T14:52:44.941451 #29038] DEBUG -- : [Kumquat] file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"
-D, [2015-08-16T14:52:44.941709 #29038] DEBUG -- : [Kumquat] knitr Rscript: Rscript -e "setwd('/var/folders/sy/gsrl8ysx5jvdmjc61b__qyhw0000gn/T/kumquat_20150816-29038-6fza02'); library(knitr); library(DBI); library(RPostgres); knit2html('/Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/"app/reports/test_report.Rmd"', options=c('use_xhtml', 'smartypants', 'mathjax', 'highlight_code', 'base64_images'));" 2>&1
-D, [2015-08-16T14:52:45.575060 #29038] DEBUG -- : [Kumquat] knitr output: Loading required package: methods
-
-
-processing file: /Users/fcb/Desktop/Kickstarter/kumquat/test/dummy/app/reports/test_report.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
-  ordinary text without R code
-
-  |                                                                         |.................................................................| 100%
-label: unnamed-chunk-1 (with options) 
-List of 5
- $ comment   : logi NA
- $ fig.width : num 10
- $ fig.height: num 8
- $ echo      : logi FALSE
- $ message   : logi FALSE
-
-
-output file: test_report.md
-
-
