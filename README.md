@@ -30,9 +30,10 @@ A list:
 
 Lorem Ipsum.
 
-```{r, fig.width=10, fig.height=8, echo=FALSE, message=FALSE}
+\```{r, fig.width=10, fig.height=8, echo=FALSE, message=FALSE}
 library(ggplot2)
 qplot(data = data.frame( x = runif(100), y = runif(100) ), x = x, y = y)
+\```
 ```
 
 Which yields the following output:
@@ -75,7 +76,7 @@ If you need to connect R to a database and provide credentials from your applica
 Kumquat.database_config(Configs[:redshift].merge({ database_connector: "RPostgres::Postgres()" }))
 ```
 
-We are using Hadley Wickham's RPostgres library which can be installed in R accordingly:
+We are using Hadley Wickham's [RPostgres library](https://github.com/rstats-db/RPostgres) which can be installed in R accordingly:
 
 ```R
 install.packages("devtools")
