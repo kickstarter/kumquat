@@ -44,7 +44,7 @@ Kumquat can be integrated anywhere inside Rails views where partials are called.
 
 # How it Works
 
-Kumquat requires R to be installed on the machines running your application. The main action is then in `Knit2HTML` which shells out to `Rscript` and runs the necessary `knitr` package methods to compile HTML. 
+Kumquat requires R to be installed on the machines running your application. The main action is then in `Knit2HTML` which shells out to `Rscript` and runs the necessary `knitr` package methods to compile HTML.
 
 When you install Kumquat a template handler is registered to handle Rmd files.
 

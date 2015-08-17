@@ -12,5 +12,9 @@ module Kumquat
       ActionView::Template.register_template_handler(:Rmd, RmdTemplateHandler.new)
     end
 
+    initializer :register_report_interceptor do
+      ActionMailer::Base.register_interceptor(KumquatReportInterceptor)
+    end
+
   end
 end
