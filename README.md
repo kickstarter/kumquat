@@ -8,7 +8,7 @@ You can use Kumquat to integerate R output into Rails, which is useful for using
 
 # Example
 
-For example, consider a typical HAML `render` call to a partial:
+For example, consider a typical `render` call to a partial:
 
 `render '_a_knitr_report'`
 
