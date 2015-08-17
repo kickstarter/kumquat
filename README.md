@@ -69,8 +69,9 @@ Kumquat requires R to be installed, and the knitr packages to render RMarkdown f
 If you're curious about installing R using Chef, check out [a suggested recipe on the wiki](https://github.com/kickstarter/kumquat/wiki/Suggested-Chef-Recipe)
 
 ## Database Support
-If you need to connect R to a database and provide credentials from your application, you can do so in an initializer like so:
-```
+If you need to connect R to a database and provide credentials from your application, you can do so in an application initializer like so:
+
+```ruby
 Kumquat.database_config(Configs[:redshift].merge({ database_connector: "RPostgres::Postgres()" }))
 ```
 
