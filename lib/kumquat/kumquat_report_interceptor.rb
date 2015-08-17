@@ -18,8 +18,6 @@ class KumquatReportInterceptor
     mail['X-KUMQUAT'] = nil
     mail.html_part.body = extract_images
 
-    mail['X-SIG'] = 'bypass'
-
     m = mail # Need a local variable so that we don't fight with the mail object
 
     mixed_part = Mail::Part.new do
