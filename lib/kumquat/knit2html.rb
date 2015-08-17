@@ -9,20 +9,45 @@ class Knit2HTML
     Kumquat.logger.debug "[Kumquat] file: #{@file}"
   end
 
-  def write_redshift_connection_string(tmp_dir)
-    c = "redshift <- dbConnect(RPostgres::Postgres(),
-      dbname = '#{Kumquat.redshift_database}',
-      host = '#{Kumquat.redshift_host}',
-      port = #{Kumquat.redshift_port},
-      user = '#{Kumquat.redshift_user}',
-      password = '#{Kumquat.redshift_password}'
-    )"
-    File.open("#{tmp_dir}/redshift_credentials.r", "w") {|f| f.puts c}
+  def knit
+    f = ''
+    Dir.mktmpdir('kumquat_') do |tmp_dir|
+
+      r_commands = [
+        "setwd('#{tmp_dir}');",
+        "#{r_libraries}",
+        database_connection(tmp_dir),
+        "knit2html('#{@file}', options=#{knitr_options});"
+      ].join(' ')
+
+      Kumquat.logger.debug "[Kumquat] knitr Rscript: #{shell_command(r_commands)}"
+      output = `#{shell_command(r_commands)}`
+
+      Kumquat.logger.debug "[Kumquat] knitr output: #{output}"
+      output_file = output[/output file: (.+)/,1].gsub(/\.md/,'.html')
+
+      f = File.read(File.join("#{tmp_dir}/#{output_file}"))
+    end
+    return f
   end
 
-  def redshift_connection(tmp_dir)
-    write_redshift_connection_string(tmp_dir)
-    "source('redshift_credentials.r');"
+  protected
+
+  def write_database_connection_string(tmp_dir)
+    c = "database <- dbConnect(#{Kumquat.database_connector},
+      dbname = '#{Kumquat.database_database}',
+      host = '#{Kumquat.database_host}',
+      port = #{Kumquat.database_port},
+      user = '#{Kumquat.database_user}',
+      password = '#{Kumquat.database_password}'
+    )"
+    File.open("#{tmp_dir}/database_credentials.r", "w") {|f| f.puts c}
+  end
+
+  def database_connection(tmp_dir)
+    return if Kumquat.database_connector.nil?
+    write_database_connection_string(tmp_dir)
+    "source('database_credentials.r');"
   end
 
   def r_libraries
@@ -37,28 +62,4 @@ class Knit2HTML
   def shell_command(r)
     %Q(Rscript -e "#{r}" 2>&1)
   end
-
-  def knit
-    f = ''
-    Dir.mktmpdir('kumquat_') do |tmp_dir|
-
-      r_commands = [
-        "setwd('#{tmp_dir}');",
-        "#{r_libraries}",
-        # redshift_connection(tmp_dir),
-        "knit2html('#{@file}', options=#{knitr_options});"
-      ].join(' ')
-
-      Kumquat.logger.debug "[Kumquat] knitr Rscript: #{shell_command(r_commands)}"
-
-      output = `#{shell_command(r_commands)}`
-
-      Kumquat.logger.debug "[Kumquat] knitr output: #{output}"
-
-      output_file = output[/output file: (.+)/,1].gsub(/\.md/,'.html')
-      f = File.read(File.join("#{tmp_dir}/#{output_file}"))
-    end
-    return f
-  end
-
 end

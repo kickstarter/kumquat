@@ -4,13 +4,14 @@ require 'kumquat/rmd_template_handler'
 require 'kumquat/kumquat_report_interceptor'
 
 module Kumquat
-  mattr_accessor :redshift_host, :redshift_database, :redshift_user, :redshift_port, :redshift_password, :logger
+  mattr_accessor :database_connector, :database_host, :database_database, :database_user, :database_port, :database_password, :logger
 
-  def self.redshift_config(config)
-    @@redshift_host       = config['host']
-    @@redshift_database   = config['dbname']
-    @@redshift_user       = config['user']
-    @@redshift_port       = config['port']
-    @@redshift_password   = config['password']
+  def self.database_config(config)
+    @@database_connector  = config['database_connector']
+    @@database_host       = config['host']
+    @@database_database   = config['dbname']
+    @@database_user       = config['user']
+    @@database_port       = config['port']
+    @@database_password   = config['password']
   end
 end

@@ -33,7 +33,6 @@ Kumquat can be integrated anywhere inside Rails, but in particular emails.
 
 # How it Works
 
-
 # Setup & Development
 
 ## Chef Recipe
@@ -42,6 +41,13 @@ Kumquat can be integrated anywhere inside Rails, but in particular emails.
 ## R Dependencies
 * knitr
 * RPostgres
+
+## Database Support
+
+```
+Kumquat.database_config(Configs[:redshift].merge({ database_connector: "RPostgres::Postgres()" }))
+```
+
 
 ## Sending emails from a local development environment
 
