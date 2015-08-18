@@ -14,7 +14,7 @@ For example, consider a typical `render` call to a partial:
 
 This partial is `_a_knitr_report.Rmd`, a regular RMarkdown file stored in your app:
 
-```r
+```md
 A Test Report for Kumquat
 ========================================================
 
@@ -30,10 +30,10 @@ A list:
 
 Lorem Ipsum.
 
-\```{r, fig.width=10, fig.height=8, echo=FALSE, message=FALSE}
-library(ggplot2)
-qplot(data = data.frame( x = runif(100), y = runif(100) ), x = x, y = y)
-\```
+    ```{r, fig.width=10, fig.height=8, echo=FALSE, message=FALSE}
+    library(ggplot2)
+    qplot(data = data.frame( x = runif(100), y = runif(100) ), x = x, y = y)
+    ```
 ```
 
 Which yields the following output:
