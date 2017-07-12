@@ -13,10 +13,10 @@ Gem::Specification.new do |s|
   s.summary     = "Kumquat is a tool for sending RMarkdown files over email."
   s.description = "Kumquat is a half-bacronym: Kickstarter Universal Management QUery Admin Tool"
 
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
   s.test_files = Dir["test/**/*"]
 
-  s.add_dependency "rails", "~> 4.0"
+  s.add_dependency "rails", ">= 4"
 
   s.add_development_dependency "configs"
   s.add_development_dependency 'mysql2', '~> 0.3.11'
