@@ -1,4 +1,4 @@
 source "https://rubygems.org"
 
-gem 'kumquat', path: '~/Desktop/Kickstarter/kumquat'
-gem 'mysql2'
+gem 'kumquat', path: '../../'
+gem 'mysql2', '>= 0.4.4'

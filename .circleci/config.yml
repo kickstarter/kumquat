@@ -5,13 +5,15 @@ jobs:
     docker:
       - image: circleci/ruby:2.4.1
       - image: mysql:5.6
-          environment:
+        environment:
           MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
           MYSQL_DATABASE: kumquat_test
     steps:
       - checkout
-      - run:
-          name: install dependencies
-          command: bundle install --jobs=4 --retry=3 --path vendor/bundle
-      - run: bundle exec rake test
 
+      - run: sudo apt-get update
+      - run: sudo apt-get install r-base
+      - run: sudo Rscript .circleci/install-r-packages.R
+
+      - run: bundle install --jobs=4 --retry=3
+      - run: bundle exec rake test
