@@ -1,0 +1,17 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/kumquat
+    docker:
+      - image: circleci/ruby:2.4.1
+      - image: mysql:5.6
+          environment:
+          MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+          MYSQL_DATABASE: kumquat_test
+    steps:
+      - checkout
+      - run:
+          name: install dependencies
+          command: bundle install --jobs=4 --retry=3 --path vendor/bundle
+      - run: bundle exec rake test
+
