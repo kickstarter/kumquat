@@ -1,3 +1,7 @@
+# Project Status: No Longer Under Active Development
+
+This project is no longer being actively maintained. Feel free to use the code as-is, but please note that future updates or support are not planned.
+
 # Kumquat
 
 Kumquat is a reporting tool for rendering [RMarkdown](http://kbroman.org/knitr_knutshell/pages/Rmarkdown.html) files inside Rails.
@@ -54,7 +58,7 @@ A mail interceptor, `KumquatReportInterceptor` is also registered to attach imag
 
 ```ruby
     mail :to => @admin.email,
-      :reply_to => "dev@kickstarter.com",
+      :reply_to => "kumquat@example.com",
       :subject => "Test Kumquat Report",
       'X-KUMQUAT' => true do |format|
         format.text { render layout: nil }
